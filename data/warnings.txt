@@ -1,0 +1,686 @@
+Convective   (Back to Top)
+
+Tornado Warning|(TORBRO)|TO.W
+	
+
+    Issued when a tornado is indicated by radar or sighted by storm spotters. The warning will include where the tornado is, direction of movement, and what towns/locations will be in its path. Generally issued based on expected track of tornado, which may include multiple towns, cities, or counties.
+
+Severe Thunderstorm Warning|(SVRBRO)|SV.W
+	
+
+    Issued when a thunderstorm produces hail 1 inch or larger in diameter and/or winds which equal or exceed 58 mph, or for the expecation of damage from said winds. Severe thunderstorms can result in the loss of life and/or property. Information in this warning includes where the storm is, where it is moving, and what towns/locations will be affected, and the primary threat associated with the storm. Area affected can range from a portion of a city to multiple counties.
+
+Severe Weather Statement|(SVSBRO)|SV.S
+	
+
+    Issued to follow up, trim, or to cancel a Tornado or Severe Thunderstorm Warning. Includes important information on the progress of severe weather elements and/or the reason for ending the warning.
+
+Tornado Watch|(WCNBRO)|TO.A
+	
+
+    Issued when conditions are favorable for the development of tornadoes in and close to the watch area. Watches are usually in effect for several hours, with 6 hours being the most common, and are issued by county or coastal zone.
+
+Severe Thunderstorm Watch|(WCNBRO)|SV.A
+	
+
+    Issued when conditions are favorable for the development of severe thunderstorms in and close to the watch area. Watches are usually in effect for several hours, with 6 hours being the most common, and are issued by county or coastal zone.
+
+Special Weather Statement|(SPSBRO)|	
+
+    Issued to provide information concerning ongoing or imminent, generally within 2 to 6 hours, short term significant weather. This may include thunderstorms below severe limits, excessive lightning, a sharp wind shift associated with a cold front, rapid fog development, cold temperatures, etc. Area can range from portion of city/town to multiple counties.
+
+Hydrologic   (Back to Top)
+
+Flash Flood Warning|(FFWBRO)|FF.W
+	
+
+    Issued to inform the public that flash flooding is imminent or occurring, generally within 6 hours after the causative event, when there is a rapid rise in water levels in urban areas, small drainages, or arroyos. Issued from areas as small as portions of cities to multiple counties.
+
+    In general, a Flash Flood is defined as the following in Deep South Texas:
+
+        =3 feet of standing water;
+        High water entering multiple structures sufficient to cause property damage;
+        =6 inches of fast flowing water across roads;
+        Arroyos/streams overtopping banks sufficient to produce =6 inches of fast flowing water
+
+     
+
+Flash Flood Watch|(FFABRO)|FF.A
+	
+
+    Issued when meteorological, soil, or hydrologic conditions indicate flash flooding is possible (as described above), or if a dam could fail and threaten life and property, but the threat does not yet appear imminent. Flash flooding would occur within 6 hours of the causative event. Issued by county or coastal zone.
+
+Flash Flood Statement|(FFSBRO)|FF.S
+	
+
+    Issued to follow up, or to cancel a Flash Flood Warning, Watch, or Advisory. The statement will contain the latest information on the event (i.e. reports of flooding, damage, etc.), and/or the reason for canceling the warning, watch, or advisory. Issued as small as portion of city/town (short fused) to multiple counties (short and long fused).
+
+Flood Warning|(FLWBRO)|FL.W
+	
+
+    For non-river events: Issued to inform the public that flooding will continue for several hours after the causative event has ended. In general, 6 hours after the rain has tapered to drizzle or ended, or 2 to 6 hours after the rain has ended and sunshine/clearing has begun. Example: Continued life threatening high water the day after Dolly’s landfall. Issued from areas as small as portions of cities to multiple counties, defined in Deep South Texas as:
+
+     
+
+        =3 feet of standing water;
+        High water entering multiple structures sufficient to cause property damage;
+        =6 inches of fast flowing water across roads;
+        Arroyos/streams overtopping banks sufficient to produce =6 inches of fast flowing water
+
+     
+
+    For river/reservoir events: Issued when significant flooding is expected to threaten life and property from overflowing, gauged rivers or creeks. Only issued where there are gauged and proxy locations where defined flood stages exist. Text product issued by County and displayed on the map as such, even though threat area is within locations within the immediate river basin.
+
+Flood Watch|(FFABRO)|FF.A or FA.A
+	
+
+    Non-river issuances: Issued to inform the public that current and developing weather conditions are such that there is a threat of flooding or flash flooding, as defined above, but the occurrence is neither certain nor imminent. Issued by county/coastal zone.
+    River issuances: When a river is forecast to equal or exceed flood stage 12 to 36 hours out. Also issued to denote flood potential due to post-tropical cyclone flooding or potential dam failure.
+
+     
+
+Flood Statement|(FLSBRO)|FL.S
+
+	
+
+    Issued for one of the following circumstances:
+
+        River:
+            To update or cancel a Flood Warning for a gauged location or proxy location. The latest information (i.e. reports of flooding, specific damage, etc.), and/or the reason for canceling, will be provided
+
+     
+
+Flood Advisory:|(FLSBRO)|FL.S
+	
+
+     
+
+        Flood Advisory. For nuisance type flooding meeting one of the following criteria:
+            <3 feet of standing water, enough to cause minor flooding of roads, especially in poor drainage locations;
+            <6 inches of fast flowing water across roads;
+            Arroyos/streams/creeks nearing bankfull, or briefly overtopping banks, producing < 6 inches of fast flowing water
+        Hydrologic Advisory. To inform communities on non-gauged River or Flood Control Project ("Floodways") of significant water levels causing minor river flooding or flooding inside the levees.
+
+     
+
+Hydrologic Statement|(RVSBRO)|HY.S
+
+	
+
+    Issued when significant rises along the Rio Grande, including reservoirs at Falcon Dam (Starr) and Anzalduas (Hidalgo), and the Los Olmos Creek near Falfurrias, are expected to generally reach or exceed Action Stage, but remain below Flood Stage. See the Advanced Hydrologic Prediction Service page for more.
+
+Hydrologic Outlook|(ESFBRO)|	
+
+    Issued as a seasonal, intra–seasonal outlook, or an outlook prior to a significant rain event which could lead to widespread flooding.
+
+Non Convective   (Back to Top)
+
+High Wind Warning|(NPWBRO)|HW.W
+	
+
+    Issued for the expectation of sustained wind 40 to 57 mph or higher for =2 hours within a 12 hour period, or for any non convective gust to 58 mph within a 12 hour period. This includes issuance for structual/natural damage from said winds. Generally issued within 12 to 24 hours of caustive event. Examples include:
+
+        Several to numerous shingles pulled from well constructed roofs
+        Fascia/soffits torn from well constructed homes
+        Several to numerous carports/aluminum roofs partially torn at mobile home/RV parks
+        Numerous healthy 1 ft. diameter limbs snapped
+        Several healthy 3 ft diameter limbs snapped
+        Healthy small high-based root ball trees uprooted
+
+     
+
+High Wind Watch|(NPWBRO)|HW.A
+	
+
+    Issued within 24 to 48 hours of a high wind event, as defined in High Wind Warning above.
+
+Wind Advisory|(NPWBRO)|WI.Y
+	
+
+    Issued for the expectation of sustained wind 30 to 39 mph, and/or occasional gusts 40 to 57 mph, for =2 hours in a 12 hour period. This includes issuance for structual/natural damage from said winds. Generally issued within 12 to 24 hours of caustive event. Examples include:
+
+        One or two carports damaged among many in a mobile home park
+        Soffiting/fascia ripped from single home while nearby homes undamaged
+        Unfastened portable basketball poles, trash containers, lawn furniture blown around/down street
+        Twigs/leaves/palm fronds/limbs (<1 ft) blown down
+        Few to several unhealthy limbs (=3 ft) blown down
+        Unhealthy small trees with high root balls uprooted
+
+     
+
+Excessive Heat Warning|(NPWBRO)|EH.W
+	
+
+    Issued when Heat index is expected to be =120F for =2 hours during the daytime for two consecutive days or more, with ambient nighttime temperature of =80F in between. Heat area should occur over =1/2 of a zone’s area, or =1/2 of a zone’s population. Issued when conditions are generally expected to occur within 12 to 36 hours. Heat Index Chart
+
+Excessive Heat Watch|(NPWBRO)|EH.A
+	
+
+    Same conditions as with Excessive Heat Warning, above, except when conditoins are possible within a 24 to 48 hour period.
+
+Heat Advisory|(NPWBRO)|HT.Y
+	
+
+    Issued when Heat Index is expected to be =111F for =2 hours during the daytime for two consecutive days or more, with ambient nighttime temperature of =75 in between. Heat area should cover =1/2 of a zone’s area, or =1/2 of a zone’s population. Advisories are generally issued when conditions are expected within the next 12 to 36 hours. Heat Index Chart
+
+Hard Freeze Warning|(NPWBRO)|HZ.W
+	
+
+    Issued when ambient temperatures are expected to be =27F for =2 hours in a 12 hour period. Values should cover =1/2 of a zone’s area, or =1/2 of a zone’s population. Generally issued within 12 to 36 hours of event occurrence.
+
+Hard Freeze Watch|(NPWBRO)|HZ.A
+	
+
+    Issued when A Hard Freeze (defined above) is possible, generally within the next 24 to 48 hours.
+
+Freeze Warning|(NPWBRO)|FZ.W
+	
+
+    Issued when ambient temperatures are expected to be =32F for =2 hours in a 12 hour period. Freezing temperatures should cover =1/2 of a zone’s area, or =1/2 of a zone’s population
+
+Freeze Watch|(NPWBRO)|FZ.A
+	
+
+    Issued when a Freeze (defined above) is possible, generally within the next 24 to 48 hours.
+
+Dense Fog Advisory|(NPWBRO)|FG.Y
+	
+
+    Issued when fog is expected to reduce visibility to =1/4 mile for =2 hours within a 12 hour period. Fog must cover =1/2 of a zone’s area, or =1/2 of a zone’s population, to be considered.
+
+Dense Smoke Advisory
+  (NPWBRO)
+SM.Y
+	
+
+    Same as Fog (above), but for Smoke occurrence.
+
+Dust Storm Warning|(NPWBRO)|DS.W
+	
+
+    Issued for blowing dust reducing visibilities to 1/4 mile or less for =1 hour within a 12 hour period. Sustained winds of 25 mph or greater are required. Localized dust in urban areas will verify this warning.
+
+Blowing Dust Advisory|(NPWBRO)|DU.Y
+	
+
+    Issued for blowing dust reducing visibility to >1/4 mile but =1 mile for =1 hour within a 12 hour period. Winds =25 mph are required. Localized dust in urban areas will verify this advisory.
+
+Air Stagnation Advisory|(ASABRO)|AS.Y
+	
+
+    Issued through the guidance of the Texas Commission of Environmental Quality for potentially dangerous levels of particulates and ground based ozone which could cause significant health issues to residents of Deep South Texas. Expected or Observed values in the Red, or Unhealthy, range (100 to 249.9 micrograms per cubic meter) would trigger and Air Stagnation Advisory..
+
+Marine   (Back to Top)
+
+Special Marine Warning|(SMWBRO)|MA.W
+	
+
+    Issued to warn of potentially hazardous weather conditions affecting the Lower Texas Gulf Coast and Laguna Madre. These include:
+
+        Wind: Gale force (=34 kt) gusts from a shower, thunderstorm, or immediate frontal passage
+        Hail: Occurrence of =3/4 inch diameter hail.
+        Waterspout: Violently rotating column of air extending from a lowered cloud base to the water. Condensation funnel does not have to be visible all the way to the surface; violent water swirl indicates a waterspout.
+
+     
+
+Marine Weather Statement|(MWSBRO)|MA.S
+
+	
+
+    Issued for short and long fused weather hazards to mariners, as follows:
+
+        Short Fused:
+            Follow up, cancel, or expire a Special Marine Warning, with criteria defined above
+            Provide notification of hazardous conditions not meeting Special Marine Warning criteria. These include:
+                Wind gusts between 25 and 33 knots.
+                Hail less than 3/4 inch in diameter
+                Frequent to excessive cloud to water lightning
+                Blinding rains reducing visibility to = 1/4 mile
+        Longer Fused:
+            Provide 2 to 6 hours notice of approaching weather system, such as a strong front or line of thunderstorms with potentially hazardous winds
+            Provide 12 to 48 hours notice of potentially dangerous conditions developing over a large area due to the approach of a Gale, Storm, or developing but yet unnamed Tropical Cyclone
+
+     
+
+Hurricane Force Wind Warning|(MWWBRO)|HF.W
+	
+
+    Issued when sustained hurricane force (=64 knot) winds, or frequent hurricane force gusts, within a 12 hour period, are expected within the next 12 to 36 hours. Sustained winds should generally occur for =2 hours. Associated with non tropical cyclones only.
+
+Hurricane Force Wind Watch|(MWWBRO)|HF.A
+	
+
+    Same as for Hurricane Force Wind Warning above, except for the possibility of occurrence within the next 24 to 48 hours.
+
+Storm Warning|(MWWBRO)|SR.W
+	
+
+    Issued when sustained storm force (=48 kt) winds, or frequent storm force gusts, within a 12 hour period, are expected within the next 12 to 36 hours. Sustained winds should generally occur for =2 hours. Associated with non tropical cyclones only.
+
+Storm Watch|(MWWBRO)|SR.A
+	
+
+    Same as for Storm Warning above, except for the possibility of occurrence within the next 24 to 48 hours.
+
+Gale Warning|(MWWBRO)|GL.W
+	
+
+    Issued when Sustained Gale force (=34 kt) winds, or frequent gale force gusts, within a 12 hour period, are expected within the next 12 to 36 hours. Sustained winds should generally occur for =2 hours. Associated with non tropical cyclones only.
+
+Gale Watch|(MWWBRO)|GL.A
+	
+
+    Same as for Gale Warning above, except for the possibility of occurrence within the next 24 to 48 hours.
+
+Small Craft Advisory|(MWWBRO)|SC.Y (all)
+SI.Y (winds alone)
+SW.Y(seas alone)
+	
+
+    Issued when one or both of the following conditions are met:
+
+        Sustained wind 20 = Speed = 33 knots, or frequent gusts of 20 = Speed = 33 knots, within a 12 hour period. Sustained wind should occur for =2 hours, or =1/3 of all observations should have gusts 20 = Speed = 33 knots.
+        Combined seas =7 feet, generally for =2 hours within a 12 hour period; over =1/2 of an advised zone(s)
+
+    Note that winds meeting criteria do not necessarily build seas to hazardous levels. This is the case in the Laguna Madre, as well as for the rare case of winds blowing offshore. Hazardous seas may continue well after winds have diminished, or may arrive through long period swell generated far east of the shoreline.
+
+     
+
+    Note: There is no legal definition of “Small Craft”
+
+Tropical   (Back to Top)
+
+Hurricane Warning|(HLSBRO)|HU.W
+	
+
+    Issued when sustained winds, or frequent gusts =64 knots (74 mph), within a 12 hour period, are expected to develop within 12 to 36 hours. In cases where confidence is high, warnings may be issued out to 48 hours or longer. Sustained winds should generally occur for =2 hours. On Land: Should occur across =1/2 of zone area or zone population. Associated with tropical cyclones only.
+
+    Hurricane Warnings consider the storm as entity. A myriad of hazards, ranging from Storm Surge Flooding to Inland Flooding and Tornadoes on land, and very high seas with breaking waves on the ocean, often occur. The Hurricane Local Statement covers these impacts in total, but the warning itself is based on the expected wind speed threshold.
+
+Hurricane Watch|(HLSBRO)|HU.A
+	
+
+    Issued for the same conditions described in Hurricane Warning above, except for the possibility of occurrence over the next 24 to 48 hours. In cases where confidence is high, watches may be issued out to 60 hours or longer.
+
+Tropical Storm Warning|(HLSBRO)|TR.W
+	
+
+    Issued when sustained winds, or frequent gusts between 34 and 63 knots (39 to 73 mph), within a 12 hour period, are expected to develop within 12 to 36 hours. In cases where confidence is high, warnings may be issued out to 48 hours or longer. Sustained winds should generally occur for =2 hours. On Land: Should occur across =1/2 of zone area or zone population. Associated with tropical cyclones only.
+
+    Tropical Storm Warnings consider the storm as entity. A myriad of hazards, ranging from Storm Surge Flooding to Inland Flooding and Tornadoes on land, and very high seas with breaking waves on the ocean, often occur. The Hurricane Local Statement covers these impacts in total, but the warning itself is based on the expected wind speed threshold.
+
+Tropical Storm Watch|(HLSBRO)|TR.A
+	
+
+    Issued for the same conditions described in Tropical Storm Warning above, except for the possibility of occurrence over the next 24 to 48 hours. In cases where confidence is high, watches may be issued out to 60 hours or longer.
+
+Extreme Wind Warning|(EWWBRO)|EW.W
+	
+
+    Issued to inform emergency management, the public, etc. to take immediate shelter in an interior portion of a well-built structure due to the onset of extreme tropical cyclone winds. An EWW for extreme tropical cyclone winds should be issued when both of the following criteria are met:
+
+        The Hurricane is a Category 3 or greater on the Saffir Simpson Hurricane Wind Scale;
+        Surface winds =100 knots (115 mph) are occurring, or are expected to occur, in a WFO’s county warning area within one hour, with a valid time of =2 hours, except up to 3 hours in extenuating circumstances.
+
+     
+
+Hurricane Statement|(HLSBRO)|HU.S
+
+	
+
+    Issued for Non–Warning tropical cyclone situations for the following reasons:
+
+        Well in advance of a possible landfall, before watches or warnings are issued and/or before the cyclone has been named, to keep end users informed and to quell rumors;
+        In locations not expected to be impacted by at least tropical storm force winds, but either:
+            Impacted by threats such as storm surge, tornadoes, or inland flooding
+            Close enough to the cyclone to generate interest from the community, requiring a feed of information
+
+     
+
+Coastal Hazards   (Back to Top)
+
+Coastal Flood Warning|(CFWBRO)|CF.W
+	
+
+    Issued when tidal, or surge (not in the path of a tropical cyclone), will create significant and dangerous flooding from the Gulf, expected to occur within 12 to 36 hours. Examples include:
+
+        Structural damage to buildings not protected by seawalls
+        Gulf water crossing public beach access points, closing highway 100 from Beach Access #4 northward
+        Gulf water crossing Gulf Blvd. beach access points, with >1 feet of water on the road in many locations
+        Gulf water calving dunes (severe beach erosion)
+        Begins at storm tide of >3.5 feet inside Laguna Madre, and >5 feet along the beach
+
+     
+
+Coastal Flood Watch|(CFWBRO)|CF.A
+	
+
+    Issued for the possibility of Coastal Flooding, to occur within 24 to 48 hours, as defined in Coastal Flood Warning, above.
+
+Coastal Flood Advisory|(CFWBRO)|CF.Y
+	
+
+    Issued for the expectation of nuisance tidal, or surge, flooding originating from the Gulf, generally within 12 to 36 hours. Examples include:
+
+        Gulf water briefly crossing public beach access points, not enough to close highway for any extended period of time
+        Gulf water reaching into the dunes at high tide, and reaching the dune line at low tide
+        Minor to moderate beach erosion
+        Generally, storm tide 2.5 feet = height =3.5 feet inside Laguna; 3 to 5 ft along beach
+
+     
+
+Coastal Flood Statement|(CFWBRO)|CF.S
+	
+
+    Issued to follow up or cancel a Coastal Flood Warning, Watch, or Advisory. Will also be issued for elevated tide and run up, causing brief periods of overwash, generally within 12 to 36 hours:
+
+        Gulf water may reach dune line at high tide
+        Begins at storm tide of 2 feet = height < 2.5 feet
+        May be issued for critical rip current threat during period of high visitation to South Padre Island
+
+     
+
+High Surf Warning|(CFWBRO)|SU.W
+	
+
+    Issued when Surf Wave Height 12 feet or greater (generally, twice the size of an average male in the surf zone), is expected to occur within the next 36 hours. Also may be issued when breaking wave action poses a threat to life and property within the surf zone, including to seasoned surfers, and the rip current risk is exceptionally high.
+
+High Surf Advisory|(CFWBRO)|SU.Y
+	
+
+    Issued when Surf Wave Height 6 feet or greater (generally, above head height on the average male in the surf zone), is expected to occur within the next 36 hours. Also may be issued when breaking wave action poses a threat to life and property within the surf zone, and the rip current risk is exceptionally high.
+
+Rip Current Statement|(CFWBRO)|RP.S
+	
+
+    Issued for the following threat levels:
+
+        Significant Threat: Includes mid level of a high risk or periods when crowds, including large numbers of poor swimmers, will be at the beach with a moderate risk or higher. Memorial Day, July 4th, Late July Mexican Vacation Period, Labor Day, October Bike Week, Spring Break, and Semana Santa are examples.
+            For periods with normal crowds, surf waves 4 to 6 feet.
+            For crowded periods/special events, a moderate risk or higher for rip currents.
+
+        Dangerous Threat: Surf waves 6 feet or higher and/or tropical cyclone events. If a Rip Current Statement is in effect:
+            ...and a High Surf Advisory is issued, the Statement may remain active.
+            ...and a High Surf Warning is issued, the Statement is cancelled; information will be found in the Warning message.
+            ...and a Tropical Cyclone Watch is issued, the Statement may remain active.
+            ...and a Tropical Cyclone Warning is issued, the Statement is cancelled.
+
+Fire Weather   (Back to Top)
+
+Red Flag Warning|(RFWBRO)|FW.W
+	
+
+    Issued for conditions conducive to rapid or explosive growth of any wildfire that develops. Normally issued within 24 hours of expected occurrence. Red Flag Warnings are not issued for the probability of wildfire to start. The following table describes Red Flag conditions as described in the Fire Weather Operating Plan for Deep South Texas.
+
+Red Flag Warning Decision Table Locations 	RH 	20 ft. Wind 	Fuel Dryness
+All
+	
+<15%
+	
+15G20+
+	
+N/A
+All but Zapata
+	
+<25%
+	
+20G25+
+	
+Dry+(*)
+Zapata
+	
+<25%
+	
+25+
+	
+Dry+(*)
+Jim Hogg, Starr, Brooks, Hidalgo
+	
+<35%
+	
+25+
+	
+Dry+(*)
+Kenedy, Willacy, Cameron
+	
+<40%
+	
+25+
+	
+Dry+(*)
+Coastal Willacy/Coastal Cameron
+	
+<45%
+	
+25+
+	
+Dry+(*)
+All but Zapata
+	
+<45%
+	
+25+
+	
+Critically Dry+ (*)
+Zapata
+	
+<35%
+	
+25+
+	
+Critically Dry+(*)
+
+(*)When Cured. If grass/rangelands are considered "cured", fuel dryness will not be considered. Curing is defined as dormancy resulting from frost and/or drought. In general, a heavy winter frost or hard freeze will cure, and look for Drought Monitor values of D2 (severe) or greater.
+
+Fire Weather Watch|(RFWBRO)|FW.A
+	
+
+    Issued between 12 and 48 hours in advance of the possible onset of Red Flag conditoins, as defined above. A watch will remain in effect until the forecaster determines that either the Red Flag Event will not develop (cancellation), or the Watch should be upgraded to a Warning.
+
+Fire Danger Statement|(RFDBRO)|	
+
+    Issued to highlight an increased fire danger, based on the following table. Note: Map will not display unless critical wording, such as "Extreme", is used in the headline.
+
+Fire Danger Statement Decision Table Locations 	RH 	20 ft. Wind 	Fuel Dryness
+Zapata, Cured
+	
+15%=RH<25%
+	
+15G20+
+	
+N/A
+Hidalgo, Brooks, Jim Hogg, Starr, Cured
+	
+15%=RH<35%
+	
+15G20+
+	
+N/A
+Kenedy, Willacy, Cameron, Cured
+	
+15%=RH<40%
+	
+15G20+
+	
+N/A
+Coastal Cameron/Coastal Willacy
+	
+15%=RH<45%
+	
+15G20+
+	
+N/A
+Hidalgo, Brooks, Jim Hogg, Zapata, Starr, Uncured
+	
+15%=RH<25%
+	
+15G20+
+	
+Dry+
+Kenedy, Willacy, Cameron, Coastal Willacy/Coastal Cameron
+	
+25%=RH<35%
+	
+15G20+
+	
+Dry+
+Winter Weather   (Back to Top)
+
+Wind Chill Warning|(WSWBRO)|WC.W
+	
+
+    Issued for the following values of apparent temperature, generally within 24 hours of occurrence. Conditions must occur for at least 2 hours and be accompanied by winds =10 mph in a 12 hour period.
+
+        Zapata, Jim Hogg, Brooks, Kenedy: =15°.
+        Elsewhere: =20°.
+
+    Wind Chill Chart
+
+     
+
+Wind Chill Watch|(WSWBRO)|WC.A
+	
+
+    Issued within 24 to 48 hours of an event when conditions are favorable to meet or exceed Wind Chill Warning conditions, described above. Wind Chill Chart
+
+Wind Chill Advisory|(WSWBRO)|WC.Y
+	
+
+    Issued for the following values of apparent temperature, generally within 24 hours of occurrence. Conditions must occur for at least 2 hours and be accompanied by winds =10 mph in a 12 hour period.
+
+        Zapata, Jim Hogg, Brooks, Kenedy: =25°.
+        Elsewhere: =30°.
+
+    Wind Chill Chart
+
+     
+
+Winter Storm Warning|(WSWBRO)|WS.W
+	
+
+    Issued when the following conditions, capable of producing high impact and potentially life threatening conditions, are occurring or expected to occur within the next 24 to 36 hour period of the forecast:
+
+        Snow: =1 inch in 12 hours
+        Sleet: =1/2 inch in 12 hours
+        Ice: =1/8 inch accretion, for event.
+
+    Note: Snow/Sleet accumulation should cover bridges/overpasses.
+
+     
+
+Winter Storm Watch|(WSWBRO)|WS.A
+	
+
+    Issued when Winter Storm conditions, defined above, are possible within 24 to 48 hours.
+
+Winter Weather Advisory|(WSWBRO)|WW.Y
+	
+
+    Issued when the following conditions, capable of producing significant, but not necessarily life threatening, inconveniences, are occurring or expected to occur within the next 24 to 36 hour period of the forecast:
+
+        Snow: 1/2 to 1 inch in 12 hours
+        Sleet: < 1/2 inch in 12 hours
+        Combination: Snow, sleet, and ice with snow or sleet meeting advisory criteria.
+
+    Note: Snow/Sleet accumulation should coat bridges/overpasses.
+
+     
+
+Blizzard Warning|(WSWBRO)|BZ.W
+	
+
+    Issued when sustained winds or frequent gusts = 35 mph combined with blowing and or falling snow, reducing visibility below 1/4 mile for 3 hours or more, when imminent or expected within 12 to 36 hours. Temperatures are assumed below 32°F, and snow should accumulate at least one inche in 12 hours.
+
+Blizzard Watch|(WSWBRO)|BZ.A
+	
+
+    Criteria defined in Blizzard Warning above; issued within 24 to 48 hours of possible occurrence.
+
+Non Weather Emergencies   (Back to Top)
+
+Non Weather Emergency Message information is triggered by local, state, or federal officials who provide the information necessary to trigger the Emergency Alert System, either through NOAA Weather Radio as relayed by NWS Weather Forecast Offices, or through HazCollect. Each Civil Emergency has a specified Watch/Warning/Advisory map color code for ready display on our front page. These products can be considered direct threats to life or property from non meteorological phenomena.
+
+Civil Emergency|(CEMBRO)|	
+
+    Issued for undefined civil emergencies. Product is a "catch all".
+
+Child Abduction Emergency|(CAEBRO)|	
+
+    Issued for Amber Alerts.
+
+Civil Danger Warning|(CDWBRO)|	
+
+    Issued for civil unrest emergencies.
+
+Earthquake Warning|(EQWBRO)|	
+
+    Issued for an ongoing earthquake.
+
+Local Area Emergency|(LAEBRO)|	
+
+     
+
+Law Enforcement Warning|(LEWBRO)|	
+
+    Issued for possible civil unrest.
+
+911 Telephone Outage|(TOEBRO)|	
+
+     
+
+Hazardous Materials Warning|(HMWBRO)|	
+
+    Issued for hazardous materials threatening homes and businesses.
+
+Nuclear Hazard Warning|(NUWBRO)|	
+
+    Issued for threat of nuclear waste or power plant damage or destruction.
+
+Radiological Hazard Warning|(RHWBRO)|	
+
+    Issued for other radiological hazards, which may or may not include effects from nuclear power plants.
+
+Evacuation Immediate|(EVIBRO)|	
+
+    Issued for immediate evacuation. Could be used for tropical cyclone evacuation messaging.
+
+Fire Warning|(FRWBRO)|	
+
+    Issued for imminent threat of wild fire encroaching on populated areas, requiring immediate evacuation or protection.
+
+Shelter in Place Warning|(SPWBRO)|	
+
+    Issued for instant need to shelter in place due to imminent danger in area.
+
+Volcano Warning|(VOWBRO)|	
+
+    Issued for imminent danger from volcanic ash or lava flows.
+
+Tsunami Warning|(TSUAT1/TSWBRO)|TS.W
+	
+
+    Issued by the Alaska Tsunami Warning Center (ATWC) if a strong earthquake (magnitude 7.0 or greater) occurs which may generate a potential tsunami (imminent or expected) with significant widespread inundation. Offices in the tsunami warning area will issue via EAS either a Civil Emergency Message (CEM) or a Tsunami Warning message (TSW) on NOAA Weather Radio. Offices in the tsunami warning area will also issue a Special Weather Statement every 30 minutes in order to provide timely updates while the tsunami warning is in effect.
+
+Tsunami Watch|(TSUAT1/TSABRO)|TS.A
+	
+
+    Issued to alert emergency management officials and the public of an event which may later impact the watch area. The watch area may be upgraded to a warning or advisory – or canceled – based on updated information and analysis. Therefore, emergency management officials and the public should prepare to take action. Watches are normally issued based on seismic information without confirmation that a destructive tsunami is underway.
+
+Tsunami Advisory|(TSUAT1/CEMBRO)|TS.Y
+	
+
+    Issued due to the threat of a potential tsunami which may produce strong currents or waves dangerous to those in or near the water. Coastal regions historically prone to damage due to strong currents induced by tsunamis are at the greatest risk. The threat may continue for several hours after the arrival of the initial wave, but significant widespread inundation is not expected for areas under an advisory. Appropriate actions to be taken by local officials may include closing beaches, evacuating harbors and marinas, and the repositioning of ships to deep waters when there is time to safely do so. Advisories are normally updated to continue the advisory, expand/contract affected areas, upgrade to a warning, or cancel the advisory.
+
+Tsunami Information Statement|(TIBAT1)|	
+
+    Issued to inform emergency management officials and the public that an earthquake has occurred, or that a tsunami warning, watch or advisory has been issued for another section of the ocean. In most cases, information statements are issued to indicate there is no threat of a destructive tsunami and to prevent unnecessary evacuations as the earthquake may have been felt in coastal areas. An information statement may, in appropriate situations, caution about the possibility of destructive local tsunamis. Information statements may be re-issued with additional information, though normally these messages are not updated. However, a watch, advisory or warning may be issued for the area, if necessary, after analysis and/or updated information becomes available.
+
+Other   (Back to Top)
+
+Short Term Forecast|(NOWBRO)|	
+
+    Designed to give specific, detailed forecast information for the next 2 to 6 hours for a specified location, outside of the routine but generally falling below criteria necessary for a Significant Weather Advisory (SPS). For example, an unforecast area of scattered showers expected to last an hour or two would meet the criteria for a short term forecast.
+
+Hazardous Weather Outlook|(HWOBRO)|	
+
+    Issued to highlight possible hazardous and/or severe weather threats for the next week (7 days) associated with convective weather, tropical weather, coastal and marine threats, winter weather, high winds, heat, etc. Weather threats that would be included are those that would be expected to reach the level that poses a threat to lives and/or property, and typically require the eventual issuance of a watch, warning, advisory, or statement .

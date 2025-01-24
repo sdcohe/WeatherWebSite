@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<script type="text/javascript" src="js/jQuery.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+<script type='text/javascript' src='js/knockout.js'></script>
+<script type='text/javascript' src='js/knockoutmapping.js'></script>
+<script type='text/javascript' src='js/foreachtest.js'></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	retrieveNWSAdvisories();
+
+});
+</script>
+
+<title>Test of Knockout Foreach</title>
+</head>
+<body>
+Just testing to see if the page even displays
+<!-- <div data-bind="text: HighestPriorityAdvisory"></div>  -->
+<table>
+    <thead>
+    	<tr>
+        	<th>Statements</th>
+    	</tr>
+    </thead>
+ <tbody data-bind="foreach: nwsStatements">
+        <tr>
+            <td data-bind="text: title"></td>
+        </tr>    
+    </tbody>     
+</table>
+ 
+</body>
+</html>

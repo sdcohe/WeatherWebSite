@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
+
+<head>
+
+<meta name="description" content="Personal weather station located in Germantown, MD 20874." />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=ISO-8859-1" />
+
+<script type="text/javascript">
+
+var webcamimage; 
+var imgBase="http://webcam.cloppermillweather.org:8081/thumbnail.jpg?" 
+
+function count() 
+{ 
+	webcamimage.src=imgBase + new Date(); 
+}
+
+function init() 
+{ 
+	webcamimage = document.getElementById("webCamImage"); 
+ 	if( webcamimage ) 
+ 	{ 
+  		setInterval("count()",500); 
+ 	} 
+}
+
+</script>
+ 
+<title>Clopper Mill East Webcam Live</title>
+</head>
+
+<body onload="init()">
+	<div align="center">
+	<table width="99%" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="18">
+				<p align="center">
+				<font face="Century" size="5">Clopper Mill East Weather Live</font>
+				</p>	
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<img src="http://webcam.cloppermillweather.org:8081/thumbnail.jpg" id="webCamImage" width="640" height="480" />
+			</td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>

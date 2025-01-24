@@ -1,0 +1,46 @@
+
+.watchBox {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  background-color: #FFCC00; /* yellow */
+  margin: 0 0 0 0;
+  padding: .5em 0em .5em 0em;
+  border: 1px dashed #22464F; /*rgb(34,70,79);*/
+}
+
+.advisoryBox {
+/*  color: white; */
+  font-size: 13px;
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: .5em 0em .5em 0em;
+/*  border: 1px dashed #22464F;  */ /*rgb(34,70,79);*/
+  border: 1px dashed #000000; /*rgb(34,70,79);*/
+  text-shadow: none;
+}
+
+.warningBox {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  background-color: #CC0000; /* red */
+  margin: 0 0 0 0;
+  padding: .5em 0em .5em 0em;
+  border: 1px dashed #FFFFFF; /* rgb(255,255,255); */
+}
+
+.watchBox a, .warningBox a, .advisoryBox a {
+	text-decoration: none;
+/*  color: white; */
+/*  text-shadow: black 0.1em 0.1em 0.2em, black -0.1em -0.1em 0.2em ; */ 
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+
+margin-left: 0;
+margin-right: 0;
+
+   /* text-overflow:visble;  */ /* -Uncomment - to disable Ellipsis completely use with Caution- !*/ 
+
+}

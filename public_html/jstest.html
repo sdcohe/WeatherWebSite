@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<script type='text/javascript' src='js/jQuery.js'></script>
+<script type='text/javascript' src='js/jQueryTimer.js'></script>
+<script type='text/javascript' src='js/knockout.js'></script>
+<script type='text/javascript' src='js/knockoutmapping.js'></script>
+<script type='text/javascript' src='js/date.js'></script>
+
+<title>Test of jQuery and Knockout</title>
+
+</head>
+<body>
+
+<h1>This is a test of data binding and JSON retrieval</h1>
+
+<h2>Data</h2>
+<div id="data">
+The time is <span data-bind="text: new Date(Date.parse(DateTime())).format('mm/dd/yyyy HH:MM:ss Z')"></span><br />
+The outdoor temperature is <span data-bind="text: OutdoorTemperature().toFixed(2)"></span><br />
+The outdoor humidity is <span data-bind="text: OutdoorHumidity().toFixed(2)"></span><br />
+</div>
+
+<h2>Stats</h2>
+<div id="stats">
+Temp trend is <span data-bind="text: OutdoorTemperatureTrend().toFixed(4)"></span><br />
+Hourly Temp Min is <span data-bind="text: OutdoorTempStats.HourlyValues.Min().toFixed(2)"></span> at 
+<span data-bind="text: new Date(Date.parse(OutdoorTempStats.HourlyValues.MinDate())).format('mm/dd/yyyy HH:MM:ss Z')"></span><br />
+Hourly Temp Max is <span data-bind="text: OutdoorTempStats.HourlyValues.Max().toFixed(2)"></span> at 
+<span data-bind="text: new Date(Date.parse(OutdoorTempStats.HourlyValues.MaxDate())).format('mm/dd/yyyy HH:MM:ss Z')"></span><br />
+Wind Gust Max Year <span data-bind="text: WindGustStats.AnnualValues.Max().toFixed(2)"></span><br />
+</div>
+
+<h2>History</h2>
+History[0] temp is <span data-bind="text: History()[0].OutdoorTemperature()"></span> at 
+<span data-bind="text: new Date(Date.parse(History()[0].DateTime())).format('mm/dd/yyyy HH:MM:ss Z')"></span><br />
+History[10] temp is <span data-bind="text: History()[10].OutdoorTemperature()"></span> at 
+<span data-bind="text: new Date(Date.parse(History()[10].DateTime())).format('mm/dd/yyyy HH:MM:ss Z')"></span><br />
+History[20] temp is <span data-bind="text: History()[20].OutdoorTemperature()"></span> at 
+<span data-bind="text: new Date(Date.parse(History()[20].DateTime())).format('mm/dd/yyyy HH:MM:ss Z')"></span><br />
+History[30] temp is <span data-bind="text: History()[30].OutdoorTemperature()"></span> at 
+<span data-bind="text: new Date(Date.parse(History()[30].DateTime())).format('mm/dd/yyyy HH:MM:ss Z')"></span><br />
+History[40] temp is <span data-bind="text: History()[40].OutdoorTemperature()"></span> at 
+<span data-bind="text: new Date(Date.parse(History()[40].DateTime())).format('mm/dd/yyyy HH:MM:ss Z')"></span><br />
+
+<script type="text/javascript">
+
+/* test of event handling */
+function notify() { alert("Body clicked"); }
+function notify2() { alert("H1 clicked"); }
+function notify3() { alert("Custom event triggered"); }
+
+$(document).on("ClockTimer.tick", notify3);
+$("body").on("click", notify);
+$("h1").on("click", notify2);
+
+/* $(document).trigger("ClockTimer.tick"); */
+
+/* test of data binding */
+//function myViewwxDataModel() 
+//{
+	/* make sure observables are initialized if using as a computed field */
+	
+//	this.DateTime = ko.observable(new Date());
+//	this.OutdoorTemperature = ko.observable(1);
+//	this.OutdoorHumidity = ko.observable(1);
+
+//	this.OutdoorTemperatureFormatted = ko.computed(function() {
+//	        return this.OutdoorTemperature().toFixed(2);
+//	}, this);
+
+//	this.DateTimeFormatted = ko.computed(function() {
+//		var dt = new Date(this.DateTime());
+//		var fmt = dt.format("mm/dd/yyyy HH:MM:ss Z"); 
+//		return fmt;
+//	}, this);
+//};
+
+//var wxDataModel = new myViewwxDataModel();
+
+// get WX data every 15 secs
+$(document).everyTime(10000,retrieveWeatherData);
+
+//get WX stats every minute
+$(document).everyTime(15000, retrieveWeatherStats);
+
+//get WX stats every minute
+$(document).everyTime(15000, retrieveWeatherHistory);
+
+var wxDataModel;
+var dataDone;
+var statsDone;
+var historyDone;
+
+/* $(document).trigger("ClockTimer.tick"); */
+
+function weatherDataReceived(data)
+{
+	//alert("Processing data");
+	if (typeof wxDataModel == "undefined")
+	{
+		wxDataModel = ko.mapping.fromJS(data);
+		
+	}
+	else
+	{
+		ko.mapping.fromJS(data, wxDataModel);
+	}
+	
+	if (typeof dataDone == "undefined")
+	{
+		dataDone = true;
+/*		
+		wxDataModel.OutdoorTemperatureFormatted = ko.computed(function() {
+	    	return this.OutdoorTemperature().toFixed(2);
+		}, wxDataModel);
+
+		wxDataModel.DateTimeFormatted = ko.computed(function() {
+			var dt = new Date(this.DateTime());
+			var fmt = dt.format("mm/dd/yyyy HH:MM:ss Z"); 
+			return fmt;
+		}, wxDataModel);
+*/
+		ko.applyBindings(wxDataModel);
+	}
+	
+	//wxDataModel.DateTime(new Date());
+	
+}
+
+function weatherStatsReceived(data)
+{
+	if (typeof wxDataModel == "undefined")
+	{
+		wxDataModel = ko.mapping.fromJS(data);
+	}
+	else
+	{
+		ko.mapping.fromJS(data, wxDataModel);
+	}
+
+	if (typeof statsDone == "undefined")
+	{
+		statsDone = true;
+		ko.applyBindings(wxDataModel);
+	}
+}
+
+function weatherHistoryReceived(data)
+{
+	if (typeof wxDataModel == "undefined")
+	{
+		wxDataModel = ko.mapping.fromJS(data);
+	}
+	else
+	{
+		ko.mapping.fromJS(data, wxDataModel);
+	}
+
+	if (typeof historyDone == "undefined")
+	{
+		historyDone = true;
+		ko.applyBindings(wxDataModel);
+	}
+}
+
+function retrieveWeatherData()
+{
+	$.getJSON("JSONWeatherData.php", weatherDataReceived);
+}
+
+function retrieveWeatherStats()
+{
+	//alert("Retrieving stats");
+	$.getJSON("JSONWeatherStats.php", weatherStatsReceived);
+}
+
+function retrieveWeatherHistory()
+{
+	//alert("Retrieving stats");
+	$.getJSON("JSONWeatherHistory.php", weatherHistoryReceived);
+}
+
+
+</script>
+
+
+</body>
+</html>
